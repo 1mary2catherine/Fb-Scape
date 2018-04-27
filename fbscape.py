@@ -26,3 +26,4 @@ with open(path, 'w') as f:      # context processor "with", another technique fo
     f.write(img.read())     # write the file and goes back to read it
 
     # python has garbage collector so you don't need malloc
+    # https://developers.facebook.com/docs/graph-api/reference/user/photos/   (this is the api for facebook)
