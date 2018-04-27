@@ -20,6 +20,7 @@ def main():
                 break
             # at end, send it off to user and clear it using
             # end of file indicator (test with dummy facebook page)
+            # create fake email so you can create fake facebook
 
 
 img = urllib2.urlopen(settings.STATICMAP_URL.format(**data))    # downloading images after getting them
