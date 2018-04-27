@@ -23,7 +23,7 @@ def main():
             # create fake email so you can create fake facebook
 
 
-img = urllib2.urlopen(settings.STATICMAP_URL.format(**data))    # downloading images after getting them
+img = urllib2.urlopen(settings.STATICMAP_URL.format(**data))    # downloading images after getting them (https://stackoverflow.com/questions/13137817/how-to-download-image-using-requests/33866125)
 with open(path, 'w') as f:      # context processor "with", another technique for opening a file
     f.write(img.read())     # write the file and goes back to read it
 
