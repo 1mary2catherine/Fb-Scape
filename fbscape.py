@@ -19,6 +19,7 @@ def main():
             if photos = "no more photos when they pull anymore":    # need something to say I ran out of photos
                 break
             # at end, send it off to user and clear it using
+            # end of file indicator (test with dummy facebook page)
 
 
 img = urllib2.urlopen(settings.STATICMAP_URL.format(**data))    # downloading images after getting them
